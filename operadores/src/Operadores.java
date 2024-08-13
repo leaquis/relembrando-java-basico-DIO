@@ -1,13 +1,13 @@
 public class Operadores {
     public static void main(String[] args) throws Exception {
-        //igualdade
+        //  igualdade
         String nome = "Giovani";
         int idade = 26;
         double peso = 80.5;
         char sexo = 'M';
         boolean doadorOrgao = false;
         
-        //Operações
+        //  Operações
         double soma = 10.5 + 15.7;
         int subtracao = 113 - 25;
         int multiplicacao = 20 * 7;
@@ -15,17 +15,41 @@ public class Operadores {
         int modulo = 18% 3;
         double resultado = (10 * 7) + (20/4);
 
-        //Concatenação
+        //  Concatenação
         String nomeCompleto = "Giovani " + "Ramos";
 
-        //Operadores Unarios
+        //  Operadores Unarios
         int numero = 5;
         numero = -numero;
 
-        System.out.println(numero);
+        //System.out.println(numero);
 
         numero = numero * -1;
 
-        System.out.println(numero);
+        //System.out.println(numero);
+
+
+        //  x repetição
+
+        int numero2 = 5;
+        numero2++;
+        //numero2 = numero2 + 1;
+
+        //System.out.println(numero2);
+
+        boolean variavel = true;
+
+        System.out.println(!variavel);
+
+        //  Operador Ternario
+
+        //<Expressão Condicional> ? <Caso a condição seja true> : <Caso a condição seja false>
+        int a, b;
+
+        a = 5;
+        b = 6;
+        String resultado2 = a==b ? "verdadeiro" : "falso";
+
+        System.out.println(resultado2);
     }
 }
