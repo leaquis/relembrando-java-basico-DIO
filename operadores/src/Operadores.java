@@ -50,7 +50,7 @@ public class Operadores {
         b = 6;
         String resultado2 = a==b ? "verdadeiro" : "falso";
 
-        System.out.println(resultado2);
+        // System.out.println(resultado2);
 
         //  Operadores Relacionais
 
@@ -59,18 +59,33 @@ public class Operadores {
 
         boolean simNao = variavel1 == variavel2;
 
-        System.out.println("Variavel 1 é igual a Variavel 2? " + simNao);
+       //  System.out.println("Variavel 1 é igual a Variavel 2? " + simNao);
 
         simNao = variavel1 != variavel2;
 
-        System.out.println("Variavel 1 é diferente da Variavel 2? " + simNao);
+        // System.out.println("Variavel 1 é diferente da Variavel 2? " + simNao);
 
         simNao = variavel1 > variavel2;
 
-        System.out.println("Variavel 1 é maior que a Variavel 2? " + simNao);
+        // System.out.println("Variavel 1 é maior que a Variavel 2? " + simNao);
 
         simNao = variavel1 < variavel2;
 
-        System.out.println("Variavel 1 é menor que a Variavel 2? " + simNao);
+        // System.out.println("Variavel 1 é menor que a Variavel 2? " + simNao);
+
+        //  Operadores Logicos
+
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras!");
+        }
+
+        if (condicao1 || condicao2) {
+            System.out.println("Uma das condições são verdadeiras!");
+        }
+
+        System.out.println("Fim!");
     }
 }
