@@ -51,5 +51,26 @@ public class Operadores {
         String resultado2 = a==b ? "verdadeiro" : "falso";
 
         System.out.println(resultado2);
+
+        //  Operadores Relacionais
+
+        int variavel1 = 1;
+        int variavel2 = 2;
+
+        boolean simNao = variavel1 == variavel2;
+
+        System.out.println("Variavel 1 é igual a Variavel 2? " + simNao);
+
+        simNao = variavel1 != variavel2;
+
+        System.out.println("Variavel 1 é diferente da Variavel 2? " + simNao);
+
+        simNao = variavel1 > variavel2;
+
+        System.out.println("Variavel 1 é maior que a Variavel 2? " + simNao);
+
+        simNao = variavel1 < variavel2;
+
+        System.out.println("Variavel 1 é menor que a Variavel 2? " + simNao);
     }
 }
